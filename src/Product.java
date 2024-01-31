@@ -94,7 +94,7 @@ public class Product {
      * @return Details of the specific product
      */
     public String toString(){
-        return "Product description: "+productName +productCode + unitCost + inCurrentProductLine;
+        return "Product description: "+productName +productCode +"cost: " +unitCost + inCurrentProductLine;
     }
 
 }
