@@ -24,6 +24,7 @@ public class Product {
        this.productName = productName;
        this.productCode = productCode;
        this.unitCost = unitCost;
+       this.inCurrentProductLine = inCurrentProductLine;
     }
 
     //-------
@@ -94,7 +95,7 @@ public class Product {
      * @return Details of the specific product
      */
     public String toString(){
-        return "Product description: "+productName +productCode +"cost: " +unitCost + inCurrentProductLine;
+        return "Product description: "+productName +productCode +"cost: " + unitCost + inCurrentProductLine;
     }
 
 }
