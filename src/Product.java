@@ -24,8 +24,11 @@ public class Product {
         if(productName.length() <= 20)
         {this.productName = productName;}
         else {this.productName = productName.substring(0,20);}
-       this.productCode = productCode;
-       this.unitCost = unitCost;
+
+        if(productCode >1000 && productCode <5000) {this.productCode = productCode;}
+
+        if(unitCost>0) {this.unitCost = unitCost;}
+
        this.inCurrentProductLine = inCurrentProductLine;
     }
 
